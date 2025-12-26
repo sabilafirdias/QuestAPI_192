@@ -1,10 +1,12 @@
 package com.example.pertemuan12.repositori
 
+
 import android.app.Application
 import com.example.pertemuan12.apiService.ServiceApiSiswa
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttp
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -39,7 +41,7 @@ class DefaultContainerApp : ContainerApp{
         retrofit.create(ServiceApiSiswa::class.java)
     }
 
-    override val repositoryDataSiswa : RepositoryDataSiswa by lazy {
+    override val repositoryDataSiswa: RepositoryDataSiswa by lazy{
         JaringanRepositoryDataSiswa(retrofitService)
     }
 }
