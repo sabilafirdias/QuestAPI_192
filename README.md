@@ -3,3 +3,4 @@
 <img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/8790880c-e2c0-439d-a72b-f248e3e84a3b" />
 <img width="304" height="618" alt="tampilan detail siswa" src="https://github.com/user-attachments/assets/ac64c5df-b42b-447a-84b2-fd3a97ef28f0" />
 <img width="293" height="613" alt="tampilan edit siswa" src="https://github.com/user-attachments/assets/b4ab06a0-221f-4bf6-9d3d-38367dd792f1" />
+<img width="300" height="621" alt="tampilan hapus siswa" src="https://github.com/user-attachments/assets/f301cd39-9d00-44df-93a9-5cdd884afb00" />
